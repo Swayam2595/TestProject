@@ -1,0 +1,123 @@
+/* Tabs panel */
+.tabbable-panel {
+    border:1px solid #eee;
+    padding: 10px;
+    margin:40px auto;
+}
+
+/* Default mode */
+.tabbable-line > .nav-tabs {
+    border: none;
+    margin: 0px;
+    background: white;
+}
+.tabbable-line > .nav-tabs > li {
+    margin-right: 2px;
+}
+.tabbable-line > .nav-tabs > li > a {
+    border: 0;
+    margin-right: 0;
+    color: #737373;
+    padding: 15px 25px;
+}
+.tabbable-line > .nav-tabs > li > a > i {
+    color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+    border-bottom: 2px solid #fbcdcf;
+}
+.tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+    border: 0;
+    background: none !important;
+    color: #333333;
+}
+.tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+    color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+    margin-top: 0px;
+}
+.tabbable-line > .nav-tabs > li.active {
+    border-bottom: 2px solid red;
+    position: relative;
+}
+.tabbable-line > .nav-tabs > li.active > a {
+    border: 0;
+    color: #333333;
+}
+.tabbable-line > .nav-tabs > li.active > a > i {
+    color: #404040;
+}
+.tabbable-line > .tab-content {
+    margin-top: -3px;
+    background-color: #fff;
+    border: 0;
+    border-top: 1px solid #eee;
+    padding: 15px 0;
+}
+.portlet .tabbable-line > .tab-content {
+    padding-bottom: 0;
+}
+.tab_content
+{
+    background: #eceff7;
+}
+.sprinkle_types,.sprinkle_size,.sprinkler_head_types
+{
+    list-style: none;
+    margin-top: 25px;
+}
+.sprinkle_types,.sprinkle_size,.sprinkler_head_types
+{
+    font-size: 18px;
+}
+.sprinkle_size
+{
+    margin-bottom: 10px;
+}
+.sprinkle_types li:before,.sprinkle_size li:before,.sprinkler_head_types li:before
+{
+    content: "\f111";
+    font-family: 'FontAwesome';
+    color: #42B32F;
+    font-size: 8px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.sprinkle_types_title,.sprinkle_types_para,.sprinkle_types_para_two
+{
+    -webkit-padding-start: 40px;
+    -moz-padding-start: 40px;
+
+}
+.sprinkle_types_title
+{
+    font-size: 30px;
+    color: #42B32F;
+    font-weight: 400;
+}
+.sprinkle_types_para,.sprinkle_types_para_two
+{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-right: 40px;
+}
+
+.temp_ceiling,.temp_rating,.temp_classification,.temp_color,.temp_time,.spray,.rotary,.bubblers
+{
+    list-style: none;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.temp_ceiling li:before,.temp_classification li:before,.temp_color li:before,.temp_rating li:before,.temp_time li:before,
+.rotary li:before,.spray li:before,.bubblers li:before
+{
+    content: "\f105";
+    font-family: 'FontAwesome';
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 15px;
+}
