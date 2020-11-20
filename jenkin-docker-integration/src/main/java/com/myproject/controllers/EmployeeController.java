@@ -46,6 +46,7 @@ public class EmployeeController {
 		 
 		modelAndView.addObject("listemployees", listemployees);
 		modelAndView.setViewName("employeedetails");
+		System.out.println("Testing for jenkin");
 		return modelAndView;
 
 	
