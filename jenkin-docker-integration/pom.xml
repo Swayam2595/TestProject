@@ -4,8 +4,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.myproject</groupId>
-	<artifactId>jenkin-docker-integration</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>demo_pipeline</artifactId>
+	<version>0.0.1</version>
   <packaging>war</packaging>
 	<name>jenkin-docker-integration</name>
 	<description>Myproject Spring Boot</description>
