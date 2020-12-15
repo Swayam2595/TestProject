@@ -6,7 +6,7 @@
 	<groupId>com.myproject</groupId>
 	<artifactId>jenkin-docker-integration</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
 	<name>jenkin-docker-integration</name>
 	<description>Myproject Spring Boot</description>
 
