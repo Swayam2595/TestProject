@@ -2,7 +2,7 @@ package com.myproject.repository;
 
 import java.util.List;
 
-import org.apache.xmlbeans.impl.xb.xsdschema.Public;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
